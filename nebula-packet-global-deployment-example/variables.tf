@@ -13,31 +13,19 @@ variable "server_region_device" {
 # the count of how many servers you want
 variable "worker_count" {
   type = "string"
-  default = 18
+  default = 6
 }
 
 # a list of regions where devices will be deployed
 variable "worker_region_device" {
   type = "list"
   default = [
-    "yyz1",
-    "iad2",
-    "mrs1",
-    "dfw1",
-    "hkg1",
     "ams1",
     "dfw2",
-    "syd1",
-    "sea1",
-    "sjc1",
-    "nrt1",
     "ewr1",
-    "atl1",
-    "lax1",
-    "sin1",
-    "ord1",
-    "iad1",
-    "fra2"
+    "iad2",
+    "nrt1",
+    "sjc1"
   ]
 }
 

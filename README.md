@@ -22,8 +22,8 @@ You now have a nebula cluster that includes a single manager and as many workers
 
  - server_size - the size of the Nebula manager server - defaults to `c1.small.x86`
  - server_region_device - the region where the nebula manager server will reside - defaults to `ams1`
- - worker_count - the number of Nebula workers to create - defaults to `18`
- - worker_region_device - the regions where the workers will be deployed on - defaults to `["yyz1","iad2","mrs1","dfw1","hkg1","ams1","dfw2","syd1","sea1","sjc1","nrt1","ewr1","atl1","lax1","sin1","ord1","iad1","fra2"]`
+ - worker_count - the number of Nebula workers to create - defaults to `6`
+ - worker_region_device - the regions where the workers will be deployed on - defaults to `["ams1","dfw2","ewr1","iad2","nrt1","sjc1"]`
  - worker_size - the size of the servers used in Nebula - note that at least 1GB is needed as it uses a RancherOS for simplicity sake - defaults to `2gb`
  - PACKET_AUTH_TOKEN - the token used to connect to your packet account - needs to be declared as an envvar - required
  
